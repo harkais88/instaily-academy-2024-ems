@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+    <h1>LOGIN PAGE</h1>
+    <hr>
+    <h2>Enter valid credentials to successfully login!</h2><br>
+    
+    <form method="POST">
+        {% csrf_token %}
+        {% if error %}
+        <p style = "color: red">You have entered wrong username or password</p>
+        {% endif%}
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
