@@ -42,14 +42,14 @@ Django Framework
     - Then, install Django using the command: <code>python -m pip install Django</code>
 3. Go into the event_management_system directory from the command line.
 4. Run the command to make initial migration to enable Django features: <code>python manage.py migrate</code>    
-5. Run the server using the command <code>python manage.py runserver</code>, and access it via the link https://127.0.0.1:8000/
+5. Run the server using the command <code>python manage.py runserver</code>, and access it via the link <a href = "127.0.0.1:8000">127.0.0.1:8000</a>
 
 ## Web Apps Developed
 
 + hello_world<br>
 Basic Hello World to test Django functionality.<br>
-URL: https://127.0.0.1:8000/hello_world
+URL: <a href = "127.0.0.1:8000/hello_world">127.0.0.1:8000/hello_world</a>
 
 + login_page<br>
 Basic Login Page to check out Login, Signup And Logout methods.<br>
-URL: https://127.0.0.1:8000/login_page
+URL: <a href = "127.0.0.1:8000/login_page">127.0.0.1:8000/login_page</a>
